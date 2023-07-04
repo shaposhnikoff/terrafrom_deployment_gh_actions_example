@@ -1,9 +1,9 @@
 module "iam_policy" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-policy"
 
-  name        = "example111"
+  name        = "example"
   path        = "/"
-  description = "My example policy111"
+  description = "My example policy"
 
   policy = <<EOF
 {
