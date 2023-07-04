@@ -2,8 +2,6 @@ terraform {
   backend "s3" {
     bucket         = "847244022418-shaposhnikoff-eu-west-1"
     key            = "backend/terraform.tfstate"
-    region         = "eu-west-1"
-    dynamodb_table = "aws-terraform-states-lock"
-    encrypt        = true
+    region         = "eu-west-1"   
   }
- }
+}
